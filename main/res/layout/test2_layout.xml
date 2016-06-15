@@ -1,0 +1,126 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="4dp"
+    android:id="@+id/NumberPad"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/paigerage3">
+    <!--android:background="@drawable/img"-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:id="@+id/NumberRow123"
+        android:padding="8dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sound_one"
+            android:layout_weight="1"
+            android:layout_margin="24dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Shmerg"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sound_two"
+            android:layout_weight="1"
+            android:layout_margin="24dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Laugh"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sound_three"
+            android:layout_weight="1"
+            android:layout_margin="24dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Gank\nBot"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/NumerRow456"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sound_four"
+            android:layout_weight="1"
+            android:layout_margin="24dp"
+            android:background="@drawable/my_button_bg"
+
+            android:text="How"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sound_five"
+            android:layout_weight="1"
+            android:layout_margin="24dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Calm\nDown"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sound_six"
+            android:layout_weight="1"
+            android:layout_margin="24dp"
+            android:background="@drawable/my_button_bg"
+            android:text="On\nHigh"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:gravity="center"
+        android:id="@+id/NumberRow789">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sound_seven"
+            android:layout_weight="1"
+            android:layout_margin="24dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Gehh"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sound_eight"
+            android:layout_weight="1"
+            android:layout_margin="24dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Suut"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sound_nine"
+            android:layout_weight="1"
+            android:layout_margin="24dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Shmerg2"/>
+
+    </LinearLayout>
+</LinearLayout>
